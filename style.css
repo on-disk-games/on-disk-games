@@ -32,9 +32,6 @@ header {
   object-fit: contain; /* Ensure it doesn’t stretch */
 }
 
-
-}
-
 /* Navigation */
 nav {
   display: flex;

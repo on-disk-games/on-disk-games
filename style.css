@@ -27,8 +27,9 @@ header {
   flex-wrap: wrap;
 }
 
-.On Disk Games Logo {
-  height: 50px; /* You can tweak this */
+/* Set a fixed height for the logo */
+.ondiskgames-logo {
+  height: 50px; /* Adjust this value as needed */
   width: auto;
   object-fit: contain;
 

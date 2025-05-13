@@ -1,0 +1,123 @@
+/* Base styles */
+body {
+  margin: 0;
+  font-family: Verdana, sans-serif;
+  background: url("images/on\ disk\ games\ background.jpg") no-repeat center center fixed;
+  background-size: 100% 100%;
+ background-position:bottom;
+  color: #00334d;
+}
+
+/* Header */
+header {
+  background-color: black;
+  padding: 4px 0; /* Thinner bar */
+}
+
+.header-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 130px;
+  height: auto;
+  margin-right: auto; /* Pushes everything else to the right */
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.nav-button {
+  background: linear-gradient(to bottom, #cce6ff, #99ccff);
+  border: 2px solid #6699cc;
+  border-radius: 4px;
+  padding: 4px 10px;
+  font-size: 0.85em;
+  text-decoration: none;
+  color: #00334d;
+  font-weight: bold;
+  box-shadow: 1px 1px 0 #336699;
+  transition: none;
+}
+
+.nav-button:active {
+  position: relative;
+  top: 1px;
+  left: 1px;
+  box-shadow: none;
+}
+
+/* 2000s-style search bar */
+.search-bar {
+  display: flex;
+  margin-left: 10px;
+}
+
+.search-bar input {
+  padding: 4px 8px;
+  border: 2px solid #6699cc;
+  border-radius: 4px 0 0 4px;
+  background: linear-gradient(to bottom, #ffffff, #e6f0ff);
+  color: #00334d;
+  font-family: inherit;
+  font-size: 0.85em;
+}
+
+.search-bar button {
+  padding: 4px 10px;
+  border: 2px solid #6699cc;
+  border-left: none;
+  border-radius: 0 4px 4px 0;
+  background: linear-gradient(to bottom, #cce6ff, #99ccff);
+  color: #00334d;
+  font-weight: bold;
+  font-size: 0.85em;
+  box-shadow: 1px 1px 0 #336699;
+  cursor: pointer;
+}
+
+/* Main content */
+main {
+  max-width: 800px;
+  margin: auto;
+  background: linear-gradient(to bottom, #333, #000);
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px #000;
+  color: white;
+}
+
+.post {
+  margin-bottom: 30px;
+}
+
+.post h2 {
+  color: #cce6ff;
+}
+
+.post .date {
+  font-size: 0.85em;
+  color: #ccc;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  font-size: 0.9em;
+  margin-top: 40px;
+}
+

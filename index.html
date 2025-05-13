@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    
+<head>
+  <link rel="icon" href="images/favicon.jpg" type="image/jpg" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <img src="images/on disk games logo.jpg" alt="On Disk Games Logo" class="logo" />
+      <nav>
+        <a href="index.html" class="nav-button">Home</a>
+        <a href="index.html" class="nav-button">Blog</a>
+        <a href="mygames.html" class="nav-button">Games</a>
+        <a href="Welcome to On Disk Games.html" class="nav-button">About</a>
+      </nav>
+      <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Search posts...">
+        <button onclick="searchPosts()">Search</button>
+      </div>
+      
+  </header>
+
+  <main>
+
+    <section class="post">
+      <h2>Wii Would Like to Play: A Nostalgic Look Back at the Nintendo Wii</h2>
+      <p class="date">Posted May 13, 2025</p>
+      <p>There was a time when walking into someone’s living room and seeing a white rectangular console standing vertically next to the TV<a href="nintendowii.html">Read more</a></p>
+    </section>
+
+    <section class="post">
+      <h2>Tomodachi Life: Living the Dream – The Miis Are Back! Finally!</h2>
+      <p class="date">Posted May 12, 2025</p>
+      <p>After more than a decade, Nintendo is reviving its quirky life sim with Tomodachi Life: Living the Dream <a href="tomodachi life.html">Read more</a></p>
+    </section>
+
+    <section class="post">
+      <h2>Agentic AI: It Does Stuff So You Don't Have To (Except Worry)</h2>
+      <p class="date">Posted May 11, 2025</p>
+      <p>Agentic AI is the new shiny toy in the tech world. It's not just some chatbot waiting for your questions—no, this thing wants to run your errands, plan your life<a href="aipost.html">Read more</a></p>
+    </section>
+
+    <section class="post">
+      <h2>The Nintendo 3DS Is Still One of the Best Consoles Ever (Yeah, Even Now)</h2>
+      <p class="date">Posted May 10, 2025</p>
+      <p>The 3DS came out in 2011. It’s 2025 now. That’s 14 years of handheld greatness, and somehow, this little clamshell still holds up<a href="nintendo3ds.html">Read more</a></p>
+    </section>
+
+<section class="post">
+      <h2>Cozy Games: Chill Vibes or Just Repetitive Tasks?</h2>
+      <p class="date">Posted May 9, 2025</p>
+      <p>Cozy games have totally blown up in the past few years.<a href="cozygames.html">Read more</a></p>
+    </section>
+
+     <section class="post">
+      <h2>BlueStacks: Play Mobile Games on Your PC</h2>
+      <p class="date">Posted May 8, 2025</p>
+      <p>If you’ve ever thought,“Man, I wish I could play this mobile game on a bigger screen,” then BlueStacks might be exactly what you’re looking for. <a href="bluestacks.html">Read more</a></p>
+    </section>
+
+    <section class="post">
+      <h2>The Sims 25th Anniversary: Revisiting Sims 1 & Sims 2 with the New Bundle. Is it Worth It?</h2>
+      <p class="date">Posted May 7, 2025</p>
+      <p>The Sims turned 25 this February and to celebrate, EA has finally released a special Sims 1 + Sims 2 <a href="The Sims 25th Anniversary Revisiting Sims 1 & Sims 2 with the New Bundle.html">Read more</a></p>
+    </section>
+
+    <section class="post">
+      <h2>How to Optimize Your PC for Gaming</h2>
+      <p class="date">Posted May 6, 2025</p>
+      <p>Let’s face it: lag is the ultimate buzzkill... <a href="How to Optimize Your PC for Gaming.html">Read more</a></p>
+    </section>
+
+    <section class="post">
+      <h2>Welcome to On Disk Games!</h2>
+      <p class="date">Posted May 1, 2025</p>
+      <p>This is where I share game dev updates, PC tips, and more! <a href="Welcome to On Disk Games.html">Read more</a></p>
+    </section>
+  </main>
+  <script>
+    function searchPosts() {
+      const input = document.getElementById("searchInput").value.toLowerCase();
+      const posts = document.querySelectorAll(".post");
+    
+      posts.forEach(post => {
+        const text = post.textContent.toLowerCase();
+        post.style.display = text.includes(input) ? "block" : "none";
+      });
+    }
+    </script>
+  
+  <footer>
+    <p>&copy; 2025 On Disk Games. All rights reserved.</p>
+  </footer>
+</body>
+</html>

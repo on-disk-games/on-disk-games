@@ -2,8 +2,11 @@
 body {
   margin: 0;
   font-family: Verdana, sans-serif;
-  background: url("images/on\ disk\ games\ background.jpg") no-repeat center center fixed;
+  body {
+  background: url("ondiskgames-background.jpg") no-repeat center center fixed;
   background-size: 100% 100%;
+}
+
  background-position:bottom;
   color: #00334d;
 }

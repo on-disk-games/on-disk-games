@@ -28,9 +28,10 @@ header {
 }
 
 .logo {
-  width: 130px;
-  height: auto;
-  margin-right: auto; /* Pushes everything else to the right */
+  height: 50px; /* You can tweak this */
+  width: auto;
+  object-fit: contain;
+
 }
 
 /* Navigation */

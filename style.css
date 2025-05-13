@@ -27,11 +27,12 @@ header {
   flex-wrap: wrap;
 }
 
-/* Set a fixed height for the logo */
 .ondiskgames-logo {
-  height: 50px; /* Adjust this value as needed */
-  width: auto;
-  object-fit: contain;
+  width: 150px;  /* Adjust to a desired width */
+  height: auto;  /* Keep the aspect ratio */
+  object-fit: contain; /* Ensure it doesn’t stretch */
+}
+
 
 }
 
